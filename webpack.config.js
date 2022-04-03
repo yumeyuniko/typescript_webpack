@@ -6,7 +6,7 @@ module.exports = {
     path: `${__dirname}/dist`,
     filename: 'bundle.js', // [name]はentryで記述した名前（この設定ならbundle）
   },
-  mode: 'development',
+  mode: 'production',
   resolve: {
     extensions: ['.ts', '.js'],
   },
